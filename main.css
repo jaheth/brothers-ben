@@ -40,8 +40,15 @@ body, html {
 	font-size: 18;
 }
 .textServices {
-	background: black;
+	background: #51BFDA;
 	padding: 0 0 0 0;
+}
+.footerContainer {
+	background:black;
+	padding: 0 0 0 0;
+}
+.footerContent {
+	color: grey;
 }
 .bgimg {
   /* Background image */
