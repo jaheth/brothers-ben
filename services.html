@@ -7,12 +7,72 @@
   <meta name="author" content="Brothers Ben">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
 <body>
-		<div class="bodyContainer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="logoTopLeft col-1">
+					<a href="home.html"><img src="img/logo.png" class="logo" alt="Brothers Ben Logo" />
+					</a>
+				</div>
+				<div class="menuFloatTop col-11 row">
+					<span class="menuHome col-2 text-center"><h3 class="menuItem"><a href="home.html">Home</a></h3></span>
+					<span class="menuDesign col-2 text-center"><h3 class="menuItem"><a href="design.html">Design</a></h3></span>
+					<span class="menuServices col-2 text-center"><h3 class="menuItem"><a href="services.html">Services</a></h3></span>
+					<span class="menuAbout col-2 text-center" ><h3 class="menuItem"><a href="about.html">About Us</a></h3></span>
+					<span class="menuContact col-2 text-center"><h3 class="menuItem"><a href="contact.php">Contact</a></h3></span>
+				</div>
+			</div>
+			<div class="row introInfoRow">
+				<div class="splashServices col-12"></div>
+				<div class="splashMainTextContainer text-center">
+					<a href="contact.php"><h3 class="splashMainText text-center">We do it all. Design, production and remediation as well as Marketing, SEO and social media management. Ask us how</h3></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3 spacer"></div>
+				<div class="servicesParagraph text-center col-6">
+				<p class="servicesParagraphText">
+				Brothers Ben provides web design services of all sorts. We are able to design websites from scratch, including hosting and upkeep, social media management, SEO optimisation, marketing and anything else web related. 
+				Brothers Ben also remediates existing sites, including ones made with third party platforms. We can assess your situation and help you determine if you're better off starting from scratch, or updating and renewing your existing site.
+			</p>
+			<a href="contact.php"><div class="contactButton">Contact Us</div></a>
+				<p class="servicesParagraphText">In addition, we are available for contract code work. Between us, we are proficient in HTML, CSS, Java, Python, Bootstrap and JQuery. Brothers Ben are adept at picking up new languages. If you need a special project completed, and you think we might be a good fit, Get in touch to see what we can do for you. 
+				</p></div>
+				<div class="col-3 spacer">
+				</div>
+			</div>
 		</div>
-		<div class="footerContainer"></div>
+		<<div class="footerContainer col-12"><p class="footerContent text-right">Last Updated 2019 - Crafted by Brothers Ben</p></div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+	$(".menuHome").click(function() {
+	window.location = $(this).find("a").attr("href"); 
+	return false;
+});
+	$(".menuDesign").click(function() {
+	window.location = $(this).find("a").attr("href"); 
+	return false;
+});
+	$(".menuServices").click(function() {
+	window.location = $(this).find("a").attr("href"); 
+	return false;
+});
+	$(".menuAbout").click(function() {
+	window.location = $(this).find("a").attr("href"); 
+	return false;
+});
+	$(".menuContact").click(function() {
+	window.location = $(this).find("a").attr("href"); 
+	return false;
+});
+</script>
 </body>
 </html>
