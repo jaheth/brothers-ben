@@ -7,12 +7,75 @@
   <meta name="author" content="Brothers Ben">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
 <body>
-		<div class="bodyContainer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="logoTopLeft col-1">
+					<a href="home.html"><img src="img/logo.png" class="logo" alt="Brothers Ben Logo" />
+					</a>
+				</div>
+				<div class="menuFloatTop col-11 row">
+					<span class="menuHome col-2 text-center"><h3 class="menuItem"><a href="home.html">Home</a></h3></span>
+					<span class="menuDesign col-2 text-center"><h3 class="menuItem"><a href="design.html">Design</a></h3></span>
+					<span class="menuServices col-2 text-center"><h3 class="menuItem"><a href="services.html">Services</a></h3></span>
+					<span class="menuAbout col-2 text-center" ><h3 class="menuItem"><a href="about.html">About Us</a></h3></span>
+					<span class="menuContact col-2 text-center"><h3 class="menuItem"><a href="contact.php">Contact</a></h3></span>
+				</div>
+			</div>
+			<div class="row aboutIntroRow">
+				<div class="spacer col-2"></div>
+				<div class="aboutIntro col-8">
+					<h3 class="introMainText text-center">Brothers Ben was founded on the core philosophy that honesty, openness and a good faith business model are the best practice. 
+						We believe small businesses should work together, and understand the restraints most small and medium size businesses are put under.  When the founders saw the 
+						treatment some people were getting from web designers, we were appalled. That's why we don't sugar coat, mislead or overestimate. We're here to help.</h3>	
+						</div>
+					<div class="spacer col-2"></div>
+				</div>
+				<div class="row aboutDent">
+				<div class="col-4 aboutDentPicture">a</div>
+				<div class="col-8 aboutDentText text-center">
+				<h4 class="textDent">Ben Dent is the tech guy. Having been interested in IT since a young age, he's gained his web design expertise through a combination of self teaching and formal education. Ben enjoys travelling with
+				his partner, Kelsi, and works from wherever home may be. He was born in Brisbane, where his family still lives and he plans to return to. Ben loves dogs, people and solving problems.</h4></div>
+				</div>
+				<div class="row aboutTaylor">
+				<div class="col-8 aboutTaylorText text-center">
+				<h4 class="textTaylor">Ben Taylor is the admin, business, social media and marketing guy. Multi-talented and kind, he also loves to travel with his wife, Kristen. He spent many years living in Japan and has degrees in Biomedical Science, as well as		
+				a dual degree in Marketing and IT. He was born on the Gold Coast, where he lives close to his family. Ben loves God, gaming and being challenged.</h4>
+				</div>
+				<div class="col-4 aboutTaylorPicture"></div>
+				</div>
 		</div>
-		<div class="footerContainer"></div>
+		<div class="footerContainer col-12"><p class="footerContent text-right">Last Updated 2019 - Crafted by Brothers Ben</p></div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+	$(".menuHome").click(function() {
+	window.location = $(this).find("a").attr("href"); 
+	return false;
+});
+	$(".menuDesign").click(function() {
+	window.location = $(this).find("a").attr("href"); 
+	return false;
+});
+	$(".menuServices").click(function() {
+	window.location = $(this).find("a").attr("href"); 
+	return false;
+});
+	$(".menuAbout").click(function() {
+	window.location = $(this).find("a").attr("href"); 
+	return false;
+});
+	$(".menuContact").click(function() {
+	window.location = $(this).find("a").attr("href"); 
+	return false;
+});
+</script>
 </body>
 </html>
