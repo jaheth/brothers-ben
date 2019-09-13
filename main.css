@@ -48,6 +48,7 @@ body, html {
 .servicesParagraphText {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	font-size:1.2em;
 }
 .contactButton{
 	border: 2.5px solid black;
@@ -80,7 +81,11 @@ a:hover, a:visited, a:link, a:active
 }
 
 .introInfoRow {
+	
 	position:relative;
+}
+.introMainText {
+	font-size: 1.5em;
 }
 .splashIntroInfo {
 	background-image: url("img/splashmain.jpg");
@@ -121,7 +126,7 @@ a:hover, a:visited, a:link, a:active
 }
 .textalign {
 position: absolute;
-top: 2.5vh;
+top: 3vh;
 left: 1vh;
 bottom:2.5vh;
 }
@@ -129,6 +134,9 @@ bottom:2.5vh;
 	position: absolute;
 top: 2vh;
 left: 1vh;
+}
+.paragraphHome {
+	font-size: 1.2em;
 }
 .splashMainTextContainer {
 	position: absolute;
@@ -144,6 +152,7 @@ left: 1vh;
 	margin-top: auto;
 	margin-bottom: auto;
 	text-decoration:none !important;
+	font-size: 1.3em;
 }
 .splashMainTextContainer a {
 	color:white !important;
@@ -163,9 +172,11 @@ left: 1vh;
 }
 .footerContainer {
 	background:black;
-	margin-top: auto;
-	height; 10px
-	width: 100%;
+	bottom:0;
+	height: 40px;
+	width: 110%;
+	right:0;
+	position:fixed;
 }
 .footerContent {
 	color: grey;
@@ -237,10 +248,15 @@ hr {
 .textTaylor, .textDent {
 	margin-top: 10%;
 	margin-bottom: 10%;
+	font-size: 1.3em;
 }
 .taylorPicture {
 	position: absolute;
 	right: 0;
+	bottom:10px;
+}
+.aboutTaylor {
+	padding-top: 10px;
 }
 .dentPicture {
 	position: absolute;
