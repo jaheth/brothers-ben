@@ -2,7 +2,7 @@
 body, html {
   height: 100%;
   width: 100%;
-  overflow-x: hidden;
+
 }
 .menuHome, .menuDesign, .menuServices, .menuAbout, .menuContact {
 	width: 25%;
@@ -19,6 +19,9 @@ body, html {
 	transition: background 0.3s linear;
 	transition: color 0.3s linear;
 }
+.logoTopLeft {
+	width:100%;
+}
 .menuItem a {
 	color: black !important;
 }
@@ -30,6 +33,7 @@ body, html {
 }
 #usHome {
 	width: 100%;
+	height:100%;
 	
 }
 .spacer {
@@ -68,10 +72,6 @@ a:hover, a:visited, a:link, a:active
 {
     text-decoration: none !important; 
 }
-.paragraphHome {
-	padding-left: 3%;
-	padding-right: 3%;
-}
 .splashIntroInfo:hover {
 	
 	transition: filter 1s;
@@ -102,30 +102,51 @@ a:hover, a:visited, a:link, a:active
 	transition: filter 1s;	
 	
 }
+.problemRow {
+	max-width:100%;
+}
 .splashServices:hover {
 
 	transition: filter 1s;
 	filter: blur(4px);
 	-webkit-filter: blur(4px);
 }
-.splashMainText {
-	color: white;
-	padding: 8px;
+.container-fluid {
+	display: flex;
+	flex-direction:column;
 }
 .paragraphIdeals {
 	margin-top: 10%;
 	margin-bottom:10%;
 }
+.textalign {
+position: absolute;
+top: 2.5vh;
+left: 1vh;
+bottom:2.5vh;
+}
+.textalignservices {
+	position: absolute;
+top: 2vh;
+left: 1vh;
+}
 .splashMainTextContainer {
 	position: absolute;
-	top: 45%;
-	bottom: 55%;
+	top: 33%;
+	bottom: 33%;
 	left: 25%;
 	right: 25%;
 	background-color: rgba(0,0,0,0.6);
 	border: 4px solid white;
 	width: 50%;
-	height: 15%;
+	height: 15vh;
+	color: white !important;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-decoration:none !important;
+}
+.splashMainTextContainer a {
+	color:white !important;
 }
 .pictureBens {
 	padding: 0 0 0 0 !important;
@@ -142,7 +163,9 @@ a:hover, a:visited, a:link, a:active
 }
 .footerContainer {
 	background:black;
-	padding: 0 0 0 0;
+	margin-top: auto;
+	height; 10px
+	width: 100%;
 }
 .footerContent {
 	color: grey;
@@ -166,7 +189,7 @@ a:hover, a:visited, a:link, a:active
   font-size: 25px;
 }
 .vertical-spacer-contact {
-	height: 20%;
+	height: 250px;
 }
 .designRow {
 	padding-top: 1%;
@@ -218,6 +241,10 @@ hr {
 .taylorPicture {
 	position: absolute;
 	right: 0;
+}
+.dentPicture {
+	position: absolute;
+	left: 0;
 }
 .aboutIntroRow {
 	padding-top:5%;
