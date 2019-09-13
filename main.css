@@ -87,6 +87,9 @@ a:hover, a:visited, a:link, a:active
 .introMainText {
 	font-size: 1.5em;
 }
+.designPreview {
+	max-width: 100%;
+}
 .splashIntroInfo {
 	background-image: url("img/splashmain.jpg");
 	background-color: black;
@@ -127,7 +130,7 @@ a:hover, a:visited, a:link, a:active
 .textalign {
 position: absolute;
 top: 3vh;
-left: 1vh;
+left: 0.5vh;
 bottom:2.5vh;
 }
 .textalignservices {
