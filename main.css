@@ -40,7 +40,6 @@ body, html {
 }
 .servicesParagraph {
 	padding-top: 50px;
-	font-size: 1.3em;
 }
 .servicesParagraphText {
 	padding-top: 30px;
@@ -72,8 +71,6 @@ a:hover, a:visited, a:link, a:active
 .paragraphHome {
 	padding-left: 3%;
 	padding-right: 3%;
-	margin-top: 5%;
-	margin-bottom: 5%;
 }
 .splashIntroInfo:hover {
 	
@@ -117,6 +114,7 @@ a:hover, a:visited, a:link, a:active
 }
 .paragraphIdeals {
 	margin-top: 10%;
+	margin-bottom:10%;
 }
 .splashMainTextContainer {
 	position: absolute;
@@ -136,9 +134,11 @@ a:hover, a:visited, a:link, a:active
 	font-size: 18;
 }
 .textServices {
-	background: #51BFDA;
+	background: rgba(81,191,218,0.2);
 	padding: 0 0 0 0;
 	border-top: 0.5px solid black;
+	padding-bottom: 7%;
+	padding-top: 7%;
 }
 .footerContainer {
 	background:black;
@@ -165,7 +165,24 @@ a:hover, a:visited, a:link, a:active
   /* Set the font-size to 25 pixels */
   font-size: 25px;
 }
-
+.vertical-spacer-contact {
+	height: 20%;
+}
+.designRow {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.container-about {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+.designRow {
+	background-color: rgba(255,102,0,0.2);
+}
+.designTitleRow {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
 /* Position text in the top-left corner */
 .topleft {
   position: absolute;
@@ -194,11 +211,13 @@ hr {
   margin: auto;
   width: 40%;
 }
-.aboutDentPicture {
-	background-color: black;
+.textTaylor, .textDent {
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
-.aboutTaylorPicture {
-	background-color: black;
+.taylorPicture {
+	position: absolute;
+	right: 0;
 }
 .aboutIntroRow {
 	padding-top:5%;
