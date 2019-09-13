@@ -83,7 +83,7 @@ a:hover, a:visited, a:link, a:active
 	position:relative;
 }
 .splashIntroInfo {
-	background-image: url("img/splashMain.jpg");
+	background-image: url("img/splashmain.jpg");
 	background-color: black;
 	filter: none;
 	width: 100%;
@@ -93,7 +93,7 @@ a:hover, a:visited, a:link, a:active
 
 }
 .splashServices {
-	background-image: url("img/splashCode.jpg");
+	background-image: url("img/splashcode.jpg");
 	background-color: black;
 	filter: none;
 	width: 100%;
