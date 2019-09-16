@@ -161,8 +161,7 @@ left: 1vh;
 }
 .pictureBens {
 	padding: 0 0 0 0 !important;
-	min-width: 300px;
-	height: auto;
+	max-height:10%;
 }
 .textIdeals {
 	font-size: 18;
