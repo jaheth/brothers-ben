@@ -123,8 +123,9 @@ a:hover, a:visited, a:link, a:active
 	flex-direction:column;
 }
 .paragraphIdeals {
-	margin-top: 10%;
-	margin-bottom:10%;
+	margin-top: 5%;
+	margin-bottom:5%;
+	
 }
 .textalign {
 position: absolute;
@@ -139,6 +140,16 @@ left: 1vh;
 }
 .paragraphHome {
 	font-size: 1.2em;
+	margin-left: auto;
+	margin-right:auto;
+}
+.previewImage {
+	max-width:100%;
+	height: auto;
+}
+.centrePreview {
+	margin-left:auto;
+	margin-right:auto;
 }
 .splashMainTextContainer {
 	position: absolute;
@@ -161,7 +172,13 @@ left: 1vh;
 }
 .pictureBens {
 	padding: 0 0 0 0 !important;
-	max-height: 300px;
+	min-height: 244px;
+	min-width: 367px;
+	max-height: 244px;
+	max-width: 367px;
+}
+.bottomRow {
+	margin-bottom: 10px;
 }
 .textIdeals {
 	font-size: 18;
